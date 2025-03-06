@@ -48,9 +48,6 @@ body {
   font-size: 1.2rem;
   color: #6c757d;
 }
-.header .navbar .nav-icons .menu-toggle {
-  display: none;
-}
 
 .hero {
   height: 100vh;
@@ -81,7 +78,7 @@ body {
   cursor: pointer;
 }
 .hero .hero-content .cta-btn:hover {
-  background: rgb(0, 98.4, 204);
+  background-color: red;
 }
 
 .featured-products {
@@ -114,66 +111,6 @@ body {
 }
 .featured-products .product-grid .product-card .rating {
   color: #ffc107;
-}
-
-.feedback-section {
-  background: #77a7d6;
-  padding: 5rem 1rem;
-}
-.feedback-section h2 {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-.feedback-section .feedback-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 2rem;
-}
-.feedback-section .feedback-container .feedback-card {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 10px;
-}
-.feedback-section .feedback-container .feedback-card .feedback-header {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
-.feedback-section .feedback-container .feedback-card .feedback-header .user-avatar {
-  border-radius: 50%;
-}
-.feedback-section .feedback-container .feedback-card .feedback-stats {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
-  color: #6c757d;
-}
-.feedback-section .feedback-container .feedback-form {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 10px;
-}
-.feedback-section .feedback-container .feedback-form textarea {
-  width: 100%;
-  min-height: 100px;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-}
-.feedback-section .feedback-container .feedback-form .rating-selector {
-  margin-bottom: 1rem;
-  color: #ffc107;
-  cursor: pointer;
-}
-.feedback-section .feedback-container .feedback-form .submit-feedback {
-  width: 100%;
-  padding: 0.8rem;
-  background: #007bff;
-  border: none;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
 .footer {
@@ -218,9 +155,6 @@ body {
     font-size: 2rem;
   }
   .featured-products .product-grid {
-    grid-template-columns: 1fr;
-  }
-  .feedback-section .feedback-container {
     grid-template-columns: 1fr;
   }
   .footer .footer-content {
